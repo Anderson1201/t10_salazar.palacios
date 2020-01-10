@@ -6,6 +6,7 @@ def agregar_nota():
 def agregar_promedio():
     input("Agregar promedio: ")
     print("Se ingreso promedio")
+#fin_def
 
 opc=0
 max=3
@@ -15,9 +16,11 @@ while(opc!=3):
     print("# 2.promedio            #")
     print("# salir                 #")
     print("#########################")
+#fin_while
 
     opc=libreria.pedir_numero("ingrese opcion:",1,3)
 
+    #Mapeo
     if(opc==1):
         agregar_nota()
     if(opc==2):
